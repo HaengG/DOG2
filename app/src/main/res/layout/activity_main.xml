@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerVertical="@android:bool/config_perDisplayFocusEnabled"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="Hello World!"
+        android:textSize="100dp"
+        android:id="@+id/tv_sound"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="푸들"
+        android:textSize="70dp"
+        android:id="@+id/btn_poodle"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="불독"
+        android:textSize="70dp"
+        android:id="@+id/btn_bulldog"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="썰매개"
+        android:textSize="70dp"
+        android:id="@+id/btn_sleddog"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
